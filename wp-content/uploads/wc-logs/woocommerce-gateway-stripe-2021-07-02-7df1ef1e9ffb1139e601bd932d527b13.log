@@ -1,0 +1,427 @@
+2021-07-02T15:41:39+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2021-07-02T15:41:39+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2021-07-02T15:43:19+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2021-07-02T15:43:19+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2021-07-02T15:43:52+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2021-07-02T15:43:52+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2021-07-02T15:44:21+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2021-07-02T15:44:21+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2021-07-02T15:45:38+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2021-07-02T15:45:38+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2021-07-02T15:45:53+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2021-07-02T15:45:53+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2021-07-02T15:46:19+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2021-07-02T15:46:19+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2021-07-02T15:47:23+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2021-07-02T15:47:23+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+Keys are not set correctly.
+====End Log====
+
+
+2021-07-02T15:59:30+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+sources/src_1J8om4H87AlZKfL4x8KKp1hJ
+====End Log====
+
+
+2021-07-02T15:59:30+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+customers request: Array
+(
+    [email] => lymoslymos@163.com
+    [description] => Name: test 4443, Username: danyuan
+    [name] => test 4443
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2021-07-02T15:59:31+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+Info: Begin processing payment for order 14 for the amount of 45.00
+====End Log====
+
+
+2021-07-02T15:59:31+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1J8om4H87AlZKfL4x8KKp1hJ
+    [amount] => 4500
+    [currency] => usd
+    [description] => danyuan - Order 14
+    [metadata] => Array
+        (
+            [customer_name] => test 4443
+            [customer_email] => lymoslymsssos@163.com
+            [order_id] => 14
+            [site_url] => http://danyuan.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_JmNXwulG4P6fwY
+)
+
+====End Log====
+
+
+2021-07-02T15:59:32+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+Stripe PaymentIntent pi_1J8om8H87AlZKfL4346vPGXt initiated for order 14
+====End Log====
+
+
+2021-07-02T15:59:32+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+payment_intents/pi_1J8om8H87AlZKfL4346vPGXt/confirm request: Array
+(
+    [source] => src_1J8om4H87AlZKfL4x8KKp1hJ
+    [level3] => Array
+        (
+            [merchant_reference] => 14
+            [shipping_amount] => 0
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 11
+                            [product_description] => iPhone 12
+                            [unit_cost] => 4500
+                            [quantity] => 1
+                            [tax_amount] => 0
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_from_zip] => 10000
+        )
+
+)
+
+====End Log====
+
+
+2021-07-02T15:59:33+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+payment_intents/pi_1J8om8H87AlZKfL4346vPGXt/confirm request: Array
+(
+    [source] => src_1J8om4H87AlZKfL4x8KKp1hJ
+)
+
+====End Log====
+
+
+2021-07-02T15:59:35+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+Stripe PaymentIntent pi_1J8om8H87AlZKfL4346vPGXt succeeded for order 14
+====End Log====
+
+
+2021-07-02T15:59:35+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1J8omAH87AlZKfL4lq0OmRiD
+    [object] => charge
+    [amount] => 4500
+    [amount_captured] => 4500
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_1J8omAH87AlZKfL4o2qLlzQQ
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => 4444
+                    [country] => US
+                    [line1] => 43444
+                    [line2] => 444
+                    [postal_code] => 12345
+                    [state] => IA
+                )
+
+            [email] => lymoslymsssos@163.com
+            [name] => test 4443
+            [phone] => 44444
+        )
+
+    [calculated_statement_descriptor] => Stripe
+    [captured] => 1
+    [created] => 1625241574
+    [currency] => usd
+    [customer] => cus_JmNXwulG4P6fwY
+    [description] => danyuan - Order 14
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => test 4443
+            [customer_email] => lymoslymsssos@163.com
+            [order_id] => 14
+            [site_url] => http://danyuan.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 17
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_1J8om8H87AlZKfL4346vPGXt
+    [payment_method] => src_1J8om4H87AlZKfL4x8KKp1hJ
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 12
+                    [exp_year] => 2025
+                    [fingerprint] => JejSXh50lJk3mFPD
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1J8oeIH87AlZKfL4/ch_1J8omAH87AlZKfL4lq0OmRiD/rcpt_JmNXII3Yf2TL4UeXxLfNMuoregtCsHU
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1J8omAH87AlZKfL4lq0OmRiD/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1J8om4H87AlZKfL4x8KKp1hJ
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 12
+                    [exp_year] => 2025
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [cvc_check] => pass
+                    [funding] => credit
+                    [fingerprint] => JejSXh50lJk3mFPD
+                    [three_d_secure] => optional
+                    [name] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_px9rwZXgZ9uPwIvyF9ZY41Yo
+            [created] => 1625241574
+            [currency] => 
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => 4444
+                            [country] => US
+                            [line1] => 43444
+                            [line2] => 444
+                            [postal_code] => 12345
+                            [state] => IA
+                        )
+
+                    [email] => lymoslymsssos@163.com
+                    [name] => test 4443
+                    [phone] => 44444
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2021-07-02T15:59:35+00:00 DEBUG 
+====Stripe Version: 5.2.3====
+====Start Log====
+balance/history/txn_1J8omAH87AlZKfL4o2qLlzQQ
+====End Log====
+
+
