@@ -73,6 +73,6 @@ if ( version_compare( get_bloginfo( 'version' ), '4.7.3', '>=' ) && ( is_admin()
 
 ob_start('domain');
 function domain($buffer){
- $buffer_out = str_replace('127.0.0.1', 'jspja8.natappfree.cc', $buffer);
+ $buffer_out = str_replace('127.0.0.1', 'asetmy.natappfree.cc', $buffer);
      return $buffer_out;
 }
